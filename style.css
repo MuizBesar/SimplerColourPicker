@@ -1,0 +1,27 @@
+body{
+    background: #0b0b0b;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color-picker {
+    position: relative;
+}
+
+.color-indicator {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+#color-picker {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
